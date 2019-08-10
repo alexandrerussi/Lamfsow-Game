@@ -211,7 +211,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &986120033
+--- !u!1001 &903530540
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -266,14 +266,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2367716, guid: e3dd0cd07ef3a41418898c05234b663c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: e7a10fc660f0c954e93eeef2f014b597, type: 2}
-    - target: {fileID: 2369268, guid: e3dd0cd07ef3a41418898c05234b663c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 237af5e9a31cc334abedcea584ee731d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3dd0cd07ef3a41418898c05234b663c, type: 3}
 --- !u!1 &1928411719
