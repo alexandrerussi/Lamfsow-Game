@@ -23,9 +23,10 @@ public class OrbitaElipse : MonoBehaviour
     void ElipticalTranslation()
     {
         X = (0f + (10f * Mathf.Sin(Mathf.Deg2Rad * alpha)));
-        Z = (0f + (5f * Mathf.Cos(Mathf.Deg2Rad * alpha)));
-        transform.position = new Vector3(X, 0, Z) + centerPoint.position;
-        //transform.position = new Vector2(0f + (10f * Mathf.Sin(Mathf.Deg2Rad * alpha)),0f + (5f * Mathf.Cos(Mathf.Deg2Rad * alpha)));
-        alpha += 2f;//can be used as speed
+        Y = centerPoint.position.y;
+        Z = (5f * Mathf.Cos(Mathf.Deg2Rad * alpha));
+        transform.position = new Vector3(X, Y, Z);
+        alpha += 2f;
+        //print("Z: " + Z + "\n X: " + X); -> Para tirar conclusões geométricas
     }
 }
