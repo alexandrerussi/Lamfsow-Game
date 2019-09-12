@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.lamfsowgamespace.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\Wowcl\\Documents\\Lamfsow\\Lamfsow-Game\\LamfsowGameSpace\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "LamfsowGameSpace [Testing]"
+        }
+      }
+    }
+  ]
+}
