@@ -1,3 +1,3 @@
-# Lamfsow-Game
+# Solar Physics Virtual Reality
 
-Hello World!
+Criação de simulações computacionais de explosões solares (ejeções de massa coronal, vento solar e fotoevaporação) que mostram, por meio da Realidade Virtual, o seu impacto na atmosfera de planetas.
